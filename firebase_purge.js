@@ -9,7 +9,7 @@ const deleteBeforeMonths = 6
 const deleteIfMoreThan = 1000
 
 const firebaseConfig = {
-  databaseURL: "https://eventops-prod.firebaseio.com/",
+  databaseURL: "database-url",
 }
 
 const app = initializeApp(firebaseConfig)
